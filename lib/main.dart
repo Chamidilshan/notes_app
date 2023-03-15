@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:notes_app/create.dart';
+import 'package:notes_app/home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,6 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
+      home: CreateData(),
     );
   }
 }
